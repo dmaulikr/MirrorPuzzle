@@ -13,6 +13,23 @@
 		0A4BC2A81B4FFDB900595A2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4BC2A71B4FFDB900595A2D /* Images.xcassets */; };
 		0A4BC2AB1B4FFDB900595A2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4BC2A91B4FFDB900595A2D /* LaunchScreen.xib */; };
 		0A4BC2B71B4FFDB900595A2D /* gamejamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BC2B61B4FFDB900595A2D /* gamejamTests.swift */; };
+		0A4BC2C11B4FFDCD00595A2D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4BC2C01B4FFDCD00595A2D /* SpriteKit.framework */; };
+		0A4BC2C31B4FFFC100595A2D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BC2C21B4FFFC100595A2D /* GameScene.swift */; };
+		0A4BC2C51B50042700595A2D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BC2C41B50042700595A2D /* Cell.swift */; };
+		0A4BC2C71B500BA300595A2D /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BC2C61B500BA300595A2D /* Array2D.swift */; };
+		0A4BC2C91B509E8000595A2D /* SKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BC2C81B509E8000595A2D /* SKButton.swift */; };
+		0A4BC2CB1B5148E900595A2D /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A4BC2CA1B5148E800595A2D /* level1.txt */; };
+		0A4BC2CD1B514ADE00595A2D /* mapImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BC2CC1B514ADE00595A2D /* mapImporter.swift */; };
+		0A4BC2CF1B52154000595A2D /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A4BC2CE1B52154000595A2D /* level2.txt */; };
+		0A4BC2D91B522F7700595A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BC2D81B522F7700595A2D /* AppDelegate.swift */; };
+		0A4BC2DB1B522F7700595A2D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BC2DA1B522F7700595A2D /* GameScene.swift */; };
+		0A4BC2DD1B522F7700595A2D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A4BC2DC1B522F7700595A2D /* GameScene.sks */; };
+		0A4BC2DF1B522F7700595A2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4BC2DE1B522F7700595A2D /* Images.xcassets */; };
+		0A4BC2E21B522F7700595A2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4BC2E01B522F7700595A2D /* MainMenu.xib */; };
+		0A4BC2EE1B522F7800595A2D /* gamejamMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BC2ED1B522F7800595A2D /* gamejamMacTests.swift */; };
+		0A4BC2F81B524E5300595A2D /* level3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A4BC2F51B524E5300595A2D /* level3.txt */; };
+		0A4BC2F91B524E5300595A2D /* level4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A4BC2F61B524E5300595A2D /* level4.txt */; };
+		0A4BC2FA1B524E5300595A2D /* level5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A4BC2F71B524E5300595A2D /* level5.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +39,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0A4BC29A1B4FFDB900595A2D;
 			remoteInfo = gamejam;
+		};
+		0A4BC2E81B522F7700595A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4BC2931B4FFDB900595A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4BC2D31B522F7700595A2D;
+			remoteInfo = gamejamMac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +60,27 @@
 		0A4BC2B01B4FFDB900595A2D /* gamejamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gamejamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4BC2B51B4FFDB900595A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A4BC2B61B4FFDB900595A2D /* gamejamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamejamTests.swift; sourceTree = "<group>"; };
+		0A4BC2C01B4FFDCD00595A2D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		0A4BC2C21B4FFFC100595A2D /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0A4BC2C41B50042700595A2D /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		0A4BC2C61B500BA300595A2D /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		0A4BC2C81B509E8000595A2D /* SKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKButton.swift; sourceTree = "<group>"; };
+		0A4BC2CA1B5148E800595A2D /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		0A4BC2CC1B514ADE00595A2D /* mapImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapImporter.swift; sourceTree = "<group>"; };
+		0A4BC2CE1B52154000595A2D /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		0A4BC2D41B522F7700595A2D /* gamejamMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gamejamMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4BC2D71B522F7700595A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4BC2D81B522F7700595A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A4BC2DA1B522F7700595A2D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0A4BC2DC1B522F7700595A2D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0A4BC2DE1B522F7700595A2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A4BC2E11B522F7700595A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0A4BC2E71B522F7700595A2D /* gamejamMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gamejamMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4BC2EC1B522F7800595A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4BC2ED1B522F7800595A2D /* gamejamMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamejamMacTests.swift; sourceTree = "<group>"; };
+		0A4BC2F51B524E5300595A2D /* level3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level3.txt; sourceTree = "<group>"; };
+		0A4BC2F61B524E5300595A2D /* level4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level4.txt; sourceTree = "<group>"; };
+		0A4BC2F71B524E5300595A2D /* level5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level5.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +88,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4BC2C11B4FFDCD00595A2D /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0A4BC2AD1B4FFDB900595A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4BC2D11B522F7700595A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4BC2E41B522F7700595A2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,8 +119,11 @@
 		0A4BC2921B4FFDB900595A2D = {
 			isa = PBXGroup;
 			children = (
+				0A4BC2C01B4FFDCD00595A2D /* SpriteKit.framework */,
 				0A4BC29D1B4FFDB900595A2D /* gamejam */,
 				0A4BC2B31B4FFDB900595A2D /* gamejamTests */,
+				0A4BC2D51B522F7700595A2D /* gamejamMac */,
+				0A4BC2EA1B522F7700595A2D /* gamejamMacTests */,
 				0A4BC29C1B4FFDB900595A2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +133,8 @@
 			children = (
 				0A4BC29B1B4FFDB900595A2D /* gamejam.app */,
 				0A4BC2B01B4FFDB900595A2D /* gamejamTests.xctest */,
+				0A4BC2D41B522F7700595A2D /* gamejamMac.app */,
+				0A4BC2E71B522F7700595A2D /* gamejamMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,12 +142,17 @@
 		0A4BC29D1B4FFDB900595A2D /* gamejam */ = {
 			isa = PBXGroup;
 			children = (
+				0A4BC2C61B500BA300595A2D /* Array2D.swift */,
 				0A4BC2A01B4FFDB900595A2D /* AppDelegate.swift */,
 				0A4BC2A21B4FFDB900595A2D /* ViewController.swift */,
+				0A4BC2C21B4FFFC100595A2D /* GameScene.swift */,
 				0A4BC2A41B4FFDB900595A2D /* Main.storyboard */,
 				0A4BC2A71B4FFDB900595A2D /* Images.xcassets */,
 				0A4BC2A91B4FFDB900595A2D /* LaunchScreen.xib */,
 				0A4BC29E1B4FFDB900595A2D /* Supporting Files */,
+				0A4BC2C41B50042700595A2D /* Cell.swift */,
+				0A4BC2C81B509E8000595A2D /* SKButton.swift */,
+				0A4BC2CC1B514ADE00595A2D /* mapImporter.swift */,
 			);
 			path = gamejam;
 			sourceTree = "<group>";
@@ -90,7 +160,12 @@
 		0A4BC29E1B4FFDB900595A2D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0A4BC2F51B524E5300595A2D /* level3.txt */,
+				0A4BC2F61B524E5300595A2D /* level4.txt */,
+				0A4BC2F71B524E5300595A2D /* level5.txt */,
+				0A4BC2CE1B52154000595A2D /* level2.txt */,
 				0A4BC29F1B4FFDB900595A2D /* Info.plist */,
+				0A4BC2CA1B5148E800595A2D /* level1.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +183,44 @@
 			isa = PBXGroup;
 			children = (
 				0A4BC2B51B4FFDB900595A2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A4BC2D51B522F7700595A2D /* gamejamMac */ = {
+			isa = PBXGroup;
+			children = (
+				0A4BC2D81B522F7700595A2D /* AppDelegate.swift */,
+				0A4BC2DA1B522F7700595A2D /* GameScene.swift */,
+				0A4BC2DC1B522F7700595A2D /* GameScene.sks */,
+				0A4BC2DE1B522F7700595A2D /* Images.xcassets */,
+				0A4BC2E01B522F7700595A2D /* MainMenu.xib */,
+				0A4BC2D61B522F7700595A2D /* Supporting Files */,
+			);
+			path = gamejamMac;
+			sourceTree = "<group>";
+		};
+		0A4BC2D61B522F7700595A2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A4BC2D71B522F7700595A2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A4BC2EA1B522F7700595A2D /* gamejamMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4BC2ED1B522F7800595A2D /* gamejamMacTests.swift */,
+				0A4BC2EB1B522F7800595A2D /* Supporting Files */,
+			);
+			path = gamejamMacTests;
+			sourceTree = "<group>";
+		};
+		0A4BC2EB1B522F7800595A2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A4BC2EC1B522F7800595A2D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,13 +263,49 @@
 			productReference = 0A4BC2B01B4FFDB900595A2D /* gamejamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0A4BC2D31B522F7700595A2D /* gamejamMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4BC2EF1B522F7800595A2D /* Build configuration list for PBXNativeTarget "gamejamMac" */;
+			buildPhases = (
+				0A4BC2D01B522F7700595A2D /* Sources */,
+				0A4BC2D11B522F7700595A2D /* Frameworks */,
+				0A4BC2D21B522F7700595A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gamejamMac;
+			productName = gamejamMac;
+			productReference = 0A4BC2D41B522F7700595A2D /* gamejamMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A4BC2E61B522F7700595A2D /* gamejamMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4BC2F21B522F7800595A2D /* Build configuration list for PBXNativeTarget "gamejamMacTests" */;
+			buildPhases = (
+				0A4BC2E31B522F7700595A2D /* Sources */,
+				0A4BC2E41B522F7700595A2D /* Frameworks */,
+				0A4BC2E51B522F7700595A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4BC2E91B522F7700595A2D /* PBXTargetDependency */,
+			);
+			name = gamejamMacTests;
+			productName = gamejamMacTests;
+			productReference = 0A4BC2E71B522F7700595A2D /* gamejamMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0A4BC2931B4FFDB900595A2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = bravo;
 				TargetAttributes = {
 					0A4BC29A1B4FFDB900595A2D = {
@@ -165,6 +314,13 @@
 					0A4BC2AF1B4FFDB900595A2D = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 0A4BC29A1B4FFDB900595A2D;
+					};
+					0A4BC2D31B522F7700595A2D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					0A4BC2E61B522F7700595A2D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 0A4BC2D31B522F7700595A2D;
 					};
 				};
 			};
@@ -183,6 +339,8 @@
 			targets = (
 				0A4BC29A1B4FFDB900595A2D /* gamejam */,
 				0A4BC2AF1B4FFDB900595A2D /* gamejamTests */,
+				0A4BC2D31B522F7700595A2D /* gamejamMac */,
+				0A4BC2E61B522F7700595A2D /* gamejamMacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,13 +350,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4BC2CF1B52154000595A2D /* level2.txt in Resources */,
+				0A4BC2F81B524E5300595A2D /* level3.txt in Resources */,
 				0A4BC2A61B4FFDB900595A2D /* Main.storyboard in Resources */,
+				0A4BC2CB1B5148E900595A2D /* level1.txt in Resources */,
 				0A4BC2AB1B4FFDB900595A2D /* LaunchScreen.xib in Resources */,
+				0A4BC2FA1B524E5300595A2D /* level5.txt in Resources */,
 				0A4BC2A81B4FFDB900595A2D /* Images.xcassets in Resources */,
+				0A4BC2F91B524E5300595A2D /* level4.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0A4BC2AE1B4FFDB900595A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4BC2D21B522F7700595A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4BC2DD1B522F7700595A2D /* GameScene.sks in Resources */,
+				0A4BC2DF1B522F7700595A2D /* Images.xcassets in Resources */,
+				0A4BC2E21B522F7700595A2D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4BC2E51B522F7700595A2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,8 +392,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4BC2C31B4FFFC100595A2D /* GameScene.swift in Sources */,
+				0A4BC2C91B509E8000595A2D /* SKButton.swift in Sources */,
+				0A4BC2C51B50042700595A2D /* Cell.swift in Sources */,
 				0A4BC2A31B4FFDB900595A2D /* ViewController.swift in Sources */,
 				0A4BC2A11B4FFDB900595A2D /* AppDelegate.swift in Sources */,
+				0A4BC2CD1B514ADE00595A2D /* mapImporter.swift in Sources */,
+				0A4BC2C71B500BA300595A2D /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +410,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A4BC2D01B522F7700595A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4BC2DB1B522F7700595A2D /* GameScene.swift in Sources */,
+				0A4BC2D91B522F7700595A2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4BC2E31B522F7700595A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4BC2EE1B522F7800595A2D /* gamejamMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +434,11 @@
 			isa = PBXTargetDependency;
 			target = 0A4BC29A1B4FFDB900595A2D /* gamejam */;
 			targetProxy = 0A4BC2B11B4FFDB900595A2D /* PBXContainerItemProxy */;
+		};
+		0A4BC2E91B522F7700595A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4BC2D31B522F7700595A2D /* gamejamMac */;
+			targetProxy = 0A4BC2E81B522F7700595A2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +457,14 @@
 				0A4BC2AA1B4FFDB900595A2D /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0A4BC2E01B522F7700595A2D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4BC2E11B522F7700595A2D /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -276,6 +491,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,6 +558,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = gamejam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -352,6 +569,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = gamejam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -370,6 +588,7 @@
 				);
 				INFOPLIST_FILE = gamejamTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gamejam.app/gamejam";
 			};
@@ -385,8 +604,87 @@
 				);
 				INFOPLIST_FILE = gamejamTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gamejam.app/gamejam";
+			};
+			name = Release;
+		};
+		0A4BC2F01B522F7800595A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gamejamMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A4BC2F11B522F7800595A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gamejamMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A4BC2F31B522F7800595A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gamejamMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gamejamMac.app/Contents/MacOS/gamejamMac";
+			};
+			name = Debug;
+		};
+		0A4BC2F41B522F7800595A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gamejamMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gamejamMac.app/Contents/MacOS/gamejamMac";
 			};
 			name = Release;
 		};
@@ -409,6 +707,7 @@
 				0A4BC2BC1B4FFDB900595A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A4BC2BD1B4FFDB900595A2D /* Build configuration list for PBXNativeTarget "gamejamTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +716,25 @@
 				0A4BC2BF1B4FFDB900595A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4BC2EF1B522F7800595A2D /* Build configuration list for PBXNativeTarget "gamejamMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4BC2F01B522F7800595A2D /* Debug */,
+				0A4BC2F11B522F7800595A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4BC2F21B522F7800595A2D /* Build configuration list for PBXNativeTarget "gamejamMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4BC2F31B522F7800595A2D /* Debug */,
+				0A4BC2F41B522F7800595A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
